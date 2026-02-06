@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ArrowRight, BarChart, CheckCircle, Users, TrendingUp } from 'lucide-react';
+import { ArrowRight, BarChart } from 'lucide-react';
 
 const HeroSection = () => {
   const containerVariants = {

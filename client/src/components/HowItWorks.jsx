@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { ArrowRight, Users, Search, Target, Zap } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 
 const HowItWorks = () => {
   const cards = [
@@ -74,13 +74,13 @@ const HowItWorks = () => {
           transition={{ duration: 0.6, delay: 0.5 }}
           viewport={{ once: true }}
         >
-          <a 
-            href="#" 
+          <button 
             className="inline-flex items-center gap-2 text-blue-600 hover:text-blue-700 font-medium transition-colors duration-200"
+            onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
           >
             Take a product tour
             <ArrowRight className="h-4 w-4" />
-          </a>
+          </button>
         </motion.div>
       </div>
     </section>

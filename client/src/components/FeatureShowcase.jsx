@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Users, TrendingUp, Clock, CheckCircle, Zap, Target } from 'lucide-react';
+import { Users, TrendingUp, Clock, CheckCircle, Zap } from 'lucide-react';
 import IntegrityMonitoringUI from './features/IntegrityMonitoringUI';
 import AIScoringUI from './features/AIScoringUI';
 import AutomatedOutreachUI from './features/AutomatedOutreachUI';
